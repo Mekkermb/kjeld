@@ -7,11 +7,9 @@ public class MouseHandler : MonoBehaviour
     public GameObject ShieldObject;
     public InputAction MouseAction;
     public float ShieldDistance = 2.0f;
-    
-    public Vector2 ShieldDirection
-    {
-        get; private set;
-    }
+
+    public Vector2 ShieldDirection;
+
 
     [SerializeField] private Vector2 MousePosition;
     [SerializeField] private Vector2 Centre = Vector2.zero;
