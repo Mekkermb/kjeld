@@ -22,13 +22,14 @@ public class MouseHandler : MonoBehaviour
     {
         MousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
-        Vector2 Normalized = (Centre - MousePosition).normalized;
+        Vector2 Normalized = (Centre + MousePosition).normalized;
         return Normalized;
     }
 
-    private void SetShieldPosition() {
+    private void SetShield() {
         Vector2 pos = ShieldDirection * ShieldDistance;
         ShieldObject.transform.position = pos;
+        ShieldObject.transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(ShieldDirection.y, ShieldDirection.x) * Mathf.Rad2Deg);
     }
     void Start()
     {
@@ -41,7 +42,7 @@ public class MouseHandler : MonoBehaviour
     void Update()
     {
         ShieldDirection = ShieldDirectionNormalized();
-        SetShieldPosition();
+        SetShield();
     }
 
     private void UpdateScreenScale()
