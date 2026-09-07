@@ -14,11 +14,15 @@ public class MouseHandler : MonoBehaviour
     [SerializeField] private Vector2 MousePosition;
     [SerializeField] private Vector2 Centre = Vector2.zero;
     [SerializeField] private Vector2 ScreenScale;
+    Camera _camera;
 
-    
+
     private Vector2 ShieldDirectionNormalized()
     {
-        MousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        if (_camera)
+        {
+            MousePosition = _camera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        }
 
         Vector2 Normalized = (Centre + MousePosition).normalized;
         return Normalized;
@@ -31,6 +35,7 @@ public class MouseHandler : MonoBehaviour
     }
     void Start()
     {
+        _camera = Camera.main;
         ShieldDirection = ShieldDirectionNormalized();
         UpdateScreenScale();
         MouseAction.Enable();
