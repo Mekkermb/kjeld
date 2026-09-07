@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 public class PlayerController : MonoBehaviour
 {
     public float score = 0f;
-    public float scoreMultiplier = 10f;
+    public float scoreMultiplier = 2f;
     public PanelRenderer panelRenderer;
     int _uiVersion = -1;
     Label _scoreText;
