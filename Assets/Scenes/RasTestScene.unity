@@ -490,6 +490,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1838048751}
   - component: {fileID: 1838048752}
+  - component: {fileID: 1838048754}
+  - component: {fileID: 1838048753}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -536,8 +538,46 @@ MonoBehaviour:
     m_Flags: 0
     m_Priority: 0
   ShieldDistance: 2
+  ShieldDirection: {x: 0, y: 0}
   MousePosition: {x: 0, y: 0}
   Centre: {x: 0, y: 0}
+  ScreenScale: {x: 0, y: 0}
+--- !u!114 &1838048753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838048750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5129df9167d2ad449bf77c1975d0745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FireSpawner
+  startSpawnInterval: 1
+  spawnInterval: 0
+  spawnIntervalDecrease: 0.1
+  DistanceFromCentre: 10
+  firePrefab: {fileID: 4422154125227839631, guid: da4857b170c753948abfcc98f1c1941b, type: 3}
+  firePooler: {fileID: 0}
+  timeSinceLastSpawn: 0
+--- !u!114 &1838048754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838048750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8f35f6975e8be46b8533ba882d08cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectPooler
+  objectToPool: {fileID: 0}
+  objectPool: []
+  DefaultObjectPosition: {x: 256, y: 256}
+  poolSize: 256
+  poolCount: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
