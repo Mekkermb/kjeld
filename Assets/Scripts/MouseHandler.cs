@@ -11,7 +11,7 @@ public class MouseHandler : MonoBehaviour
     public Vector2 ShieldDirection;
 
 
-    [SerializeField] private Vector2 MousePosition;
+    public Vector2 MousePosition;
     [SerializeField] private Vector2 Centre = Vector2.zero;
     [SerializeField] private Vector2 ScreenScale;
 
