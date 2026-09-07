@@ -492,6 +492,7 @@ GameObject:
   - component: {fileID: 1838048752}
   - component: {fileID: 1838048754}
   - component: {fileID: 1838048753}
+  - component: {fileID: 1838048755}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -578,6 +579,22 @@ MonoBehaviour:
   DefaultObjectPosition: {x: 256, y: 256}
   poolSize: 256
   poolCount: 0
+--- !u!114 &1838048755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838048750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d969c03f0cd11e45899c8a51d6965a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraScript
+  cameraSpeed: 2.5
+  maxDistance: 0.4
+  mouseHandler: {fileID: 0}
+  mainCamera: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
