@@ -50,6 +50,6 @@ public class MouseHandler : MonoBehaviour
 
     private void UpdateScreenScale()
     {
-        ScreenScale = Camera.main.WorldToScreenPoint(transform.position);
+        ScreenScale = _camera.WorldToScreenPoint(transform.position);
     }
 }
