@@ -2,16 +2,18 @@ using UnityEngine;
 
 public class ShieldScript : MonoBehaviour
 {
-    public ObjectPooler objectPooler;
+    [HideInInspector] public ObjectPooler objectPooler;
+    public PlayerController playerController;
     void Start()
     {
         objectPooler = GameObject.FindGameObjectWithTag("GameController").GetComponent<ObjectPooler>();
+        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -19,6 +21,7 @@ public class ShieldScript : MonoBehaviour
         {
             objectPooler.DestroyObject(collision.gameObject);
             // fire score increment here
+            playerController.ShieldHit();
         }
     }
 }

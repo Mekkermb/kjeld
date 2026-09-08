@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     int _uiVersion = -1;
     Label _scoreText;
     Rigidbody2D _rigidbody2D;
+    
 
     // The new PanelRenderer instead of UIElement
     void OnEnable()
@@ -32,6 +33,12 @@ public class PlayerController : MonoBehaviour
 
         _uiVersion = version;
         _scoreText = root.Q<Label>("ScoreLabel");
+    }
+
+    public void ShieldHit()
+    {
+        score++;
+        _scoreText.text = "Score: " + score;
     }
 
     void Start()
