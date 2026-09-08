@@ -16,7 +16,7 @@ public class ShieldScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Fire"))
         {
-            gameObject.SetActive(false);
+            collision.gameObject.SetActive(false);
             // fire score increment here
         }
     }
