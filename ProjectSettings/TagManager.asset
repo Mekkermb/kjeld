@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Shield
+  - Nuke
   layers:
   - Default
   - TransparentFX
