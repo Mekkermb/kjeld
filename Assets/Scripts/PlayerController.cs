@@ -40,6 +40,9 @@ public class PlayerController : MonoBehaviour
             _damageCooldown -= Time.deltaTime;
             if (_damageCooldown < 0)
             {
+                Color color = new (1f, 1f, 1f, 1f);
+                SpriteRenderer player = gameObject.GetComponentInChildren<SpriteRenderer>();
+                player.color = color;
                 _isInvicible = false;
             }
         }
