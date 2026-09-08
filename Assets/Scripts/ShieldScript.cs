@@ -2,12 +2,9 @@ using UnityEngine;
 
 public class ShieldScript : MonoBehaviour
 {
-    GameObject Manager;
-    ObjectPooler objectPooler;
     void Start()
     {
-        Manager = GameObject.FindGameObjectWithTag("GameController");
-        objectPooler = Manager.GetComponent<ObjectPooler>();
+
     }
 
     // Update is called once per frame
@@ -19,8 +16,7 @@ public class ShieldScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Fire"))
         {
-            objectPooler.DestroyObject(collision.gameObject);
-
+            gameObject.SetActive(false);
             // fire score increment here
         }
     }
