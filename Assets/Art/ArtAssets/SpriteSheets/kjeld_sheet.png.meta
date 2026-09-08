@@ -236,12 +236,12 @@ TextureImporter:
       name: kjeld_sheet_0
       rect:
         serializedVersion: 2
-        x: 127
+        x: 152
         y: 2078
-        width: 809
+        width: 784
         height: 790
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,7 +263,7 @@ TextureImporter:
         width: 824
         height: 777
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -285,7 +285,7 @@ TextureImporter:
         width: 649
         height: 845
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,28 +299,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kjeld_sheet_3
-      rect:
-        serializedVersion: 2
-        x: 3049
-        y: 2435
-        width: 35
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eababd9912664a200800000000000000
-      internalID: 190389378757667758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: kjeld_sheet_4
       rect:
         serializedVersion: 2
@@ -329,7 +307,7 @@ TextureImporter:
         width: 820
         height: 790
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,204 +321,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kjeld_sheet_5
-      rect:
-        serializedVersion: 2
-        x: 3040
-        y: 2354
-        width: 38
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c3c3014775d87450800000000000000
-      internalID: 6086849604559815618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_6
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 2248
-        width: 31
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef776d75fa8de35d0800000000000000
-      internalID: -3080786847470290946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_7
-      rect:
-        serializedVersion: 2
-        x: 1061
-        y: 2248
-        width: 31
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 863407feb270e6090800000000000000
-      internalID: -8039480399527656600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_8
-      rect:
-        serializedVersion: 2
-        x: 3005
-        y: 2268
-        width: 31
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c04151abc9bd04040800000000000000
-      internalID: 4629941883120194572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_9
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 2201
-        width: 36
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dfb72c2e942634260800000000000000
-      internalID: 7080611108633082877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_10
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 2183
-        width: 46
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 58aae54ca89fac340800000000000000
-      internalID: 4884991120232065669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_11
-      rect:
-        serializedVersion: 2
-        x: 1018
-        y: 2201
-        width: 36
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eaf17d51566499530800000000000000
-      internalID: 3862195555418972078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_12
-      rect:
-        serializedVersion: 2
-        x: 1071
-        y: 2183
-        width: 46
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0fac7c317c81514d0800000000000000
-      internalID: -3164595919848486160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_13
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 1276
-        width: 28
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12298061483d1f880800000000000000
-      internalID: -8578843250905279967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: kjeld_sheet_14
       rect:
         serializedVersion: 2
@@ -549,7 +329,7 @@ TextureImporter:
         width: 837
         height: 764
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -563,28 +343,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kjeld_sheet_15
-      rect:
-        serializedVersion: 2
-        x: 1043
-        y: 1276
-        width: 28
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86b324a0aa5fdf8d0800000000000000
-      internalID: -2810820481743963288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: kjeld_sheet_16
       rect:
         serializedVersion: 2
@@ -593,7 +351,7 @@ TextureImporter:
         width: 850
         height: 751
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -615,7 +373,7 @@ TextureImporter:
         width: 649
         height: 845
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -637,7 +395,7 @@ TextureImporter:
         width: 629
         height: 838
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -651,116 +409,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kjeld_sheet_19
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 1200
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 247f8ffbc31a18e70800000000000000
-      internalID: 9115744403065468738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_20
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 1175
-        width: 32
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f38c5f18bf858830800000000000000
-      internalID: 4072819458989392888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_21
-      rect:
-        serializedVersion: 2
-        x: 1006
-        y: 1200
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2746ce21b112d9eb0800000000000000
-      internalID: -4711573234994355086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_22
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 1175
-        width: 32
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43ef56a2b84a2ea50800000000000000
-      internalID: 6548977725768859188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_23
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 400
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96eb8f0f631196590800000000000000
-      internalID: -7680588761834930583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: kjeld_sheet_24
       rect:
         serializedVersion: 2
@@ -769,7 +417,7 @@ TextureImporter:
         width: 781
         height: 832
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -783,28 +431,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kjeld_sheet_25
-      rect:
-        serializedVersion: 2
-        x: 1072
-        y: 400
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4fc7842ba9fc3e5e0800000000000000
-      internalID: -1881431955987727116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: kjeld_sheet_26
       rect:
         serializedVersion: 2
@@ -813,7 +439,7 @@ TextureImporter:
         width: 794
         height: 818
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -827,28 +453,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kjeld_sheet_27
-      rect:
-        serializedVersion: 2
-        x: 2049
-        y: 435
-        width: 35
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e50faddbd94c0cf20800000000000000
-      internalID: 3440966297085210718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: kjeld_sheet_28
       rect:
         serializedVersion: 2
@@ -857,7 +461,7 @@ TextureImporter:
         width: 807
         height: 805
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -879,7 +483,7 @@ TextureImporter:
         width: 629
         height: 838
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -892,143 +496,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_30
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 333
-        width: 42
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a22245fef19937c10800000000000000
-      internalID: 2050150617822011946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_31
-      rect:
-        serializedVersion: 2
-        x: 1085
-        y: 333
-        width: 42
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c522b752499de9490800000000000000
-      internalID: -7737507879468719524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_32
-      rect:
-        serializedVersion: 2
-        x: 2040
-        y: 354
-        width: 38
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ecbf7fe735bd8aa0800000000000000
-      internalID: -6157065863699645208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_33
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 290
-        width: 37
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ce120c8cee242380800000000000000
-      internalID: -8997014562083299648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_34
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 290
-        width: 37
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a75483e90b44a63e0800000000000000
-      internalID: -2059758354209159814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kjeld_sheet_35
-      rect:
-        serializedVersion: 2
-        x: 2005
-        y: 268
-        width: 31
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d6b89fe34671fed0800000000000000
-      internalID: -2381992693747632429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -1068,6 +540,8 @@ TextureImporter:
       kjeld_sheet_33: -8997014562083299648
       kjeld_sheet_34: -2059758354209159814
       kjeld_sheet_35: -2381992693747632429
+      kjeld_sheet_36: -1832766900
+      kjeld_sheet_37: 119368435
       kjeld_sheet_4: -4647523410036299693
       kjeld_sheet_5: 6086849604559815618
       kjeld_sheet_6: -3080786847470290946
