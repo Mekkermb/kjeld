@@ -16,25 +16,35 @@ public class Nuke : MonoBehaviour
     [Header("State")]
     [SerializeField] private Vector2 Source;
     [SerializeField] private float Progress = 0f;
-    private GameObject[] fires;
+    [SerializeField] private GameObject[] fires;
+    [SerializeField] private GameObject NukeObject;
+    [SerializeField] private Ring ring;
+    [SerializeField] private PlayerController playerController;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         InputAction.action.Enable();
         Source = gameObject.transform.position;
-        
+        NukeObject = GameObject.FindGameObjectWithTag("Nuke");
+        ring = NukeObject.GetComponent<Ring>();
+        playerController = gameObject.GetComponent<PlayerController>();
     }
 
     private void StartOutward() {
         NukeCooldownRemaining = NukeCooldown;
         fires = GameObject.FindGameObjectsWithTag("Fire");
+        NukeObject.SetActive(true);
+        NukeObject.transform.position = Source;
     } // enable objects that show the nuke (visuals)
-    private void StopOutward() { } // disable objects that show the nuke (visuals)
+    private void StopOutward() {
+        NukeObject.SetActive(false);
+    } // disable objects that show the nuke (visuals)
 
     private void Outward()
     {
         Progress += Time.deltaTime * OutwardSpeed;
+        ring.Scale(Progress);
 
         foreach (GameObject obj in fires)
         {
@@ -42,6 +52,7 @@ public class Nuke : MonoBehaviour
             Vector2 distance = (Vector2)obj.transform.position - Source;
             if (distance.magnitude < Progress)
             {
+                if (obj.activeSelf) playerController.ShieldHit();
                 obj.SetActive(false);
             }
         }
