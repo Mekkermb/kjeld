@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        objectPooler = GameObject.FindGameObjectWithTag("GameController").GetComponent<ObjectPooler>();
         currentHealth = maxHealth;
     }
 
@@ -91,7 +92,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Fire"))
         {
-            objectPooler = GameObject.FindGameObjectWithTag("GameController").GetComponent<ObjectPooler>();
+
             
             ChangeHealth(-1);
             objectPooler.DestroyObject(other.gameObject);
