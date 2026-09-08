@@ -26,6 +26,7 @@ public class MouseHandler : MonoBehaviour
     }
 
     private void SetShield() {
+        if (Time.timeScale == 0) return;
         Vector2 pos = ShieldDirection * ShieldDistance;
         ShieldObject.transform.position = pos;
         ShieldObject.transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(ShieldDirection.y, ShieldDirection.x) * Mathf.Rad2Deg);
