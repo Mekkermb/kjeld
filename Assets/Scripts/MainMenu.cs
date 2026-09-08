@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
+        LeaderboardHandler.Init();
         SceneManager.LoadScene("Game");
     }
+
 }
