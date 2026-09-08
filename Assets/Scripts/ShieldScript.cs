@@ -5,7 +5,7 @@ public class ShieldScript : MonoBehaviour
     public ObjectPooler objectPooler;
     void Start()
     {
-        objectPooler = GameObject.Find("GameController").GetComponent<ObjectPooler>();
+        objectPooler = GameObject.FindGameObjectWithTag("GameController").GetComponent<ObjectPooler>();
     }
 
     // Update is called once per frame
