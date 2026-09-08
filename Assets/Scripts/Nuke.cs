@@ -19,6 +19,7 @@ public class Nuke : MonoBehaviour
     [SerializeField] private GameObject[] fires;
     [SerializeField] private GameObject NukeObject;
     [SerializeField] private Ring ring;
+    [SerializeField] private PlayerController playerController;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,6 +28,7 @@ public class Nuke : MonoBehaviour
         Source = gameObject.transform.position;
         NukeObject = GameObject.FindGameObjectWithTag("Nuke");
         ring = NukeObject.GetComponent<Ring>();
+        playerController = gameObject.GetComponent<PlayerController>();
     }
 
     private void StartOutward() {
@@ -50,6 +52,7 @@ public class Nuke : MonoBehaviour
             Vector2 distance = (Vector2)obj.transform.position - Source;
             if (distance.magnitude < Progress)
             {
+                if (obj.activeSelf) playerController.ShieldHit();
                 obj.SetActive(false);
             }
         }
