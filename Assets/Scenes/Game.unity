@@ -215,9 +215,9 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
     m_Priority: 0
-  ShieldDistance: 2
+  ShieldDistance: 1
   PlayerObject: {fileID: 1472742093}
-  PlayerDistance: 1
+  PlayerDistance: 0.5
   ShieldDirection: {x: 0, y: 0}
   PlayerDirection: {x: 0, y: 0}
   MousePosition: {x: 0, y: 0}
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 586923181}
   m_Layer: 0
   m_Name: Center
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -611,6 +611,13 @@ MonoBehaviour:
   radius: 2
   thickness: 0.2
   color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  maxRadius: 12
+  quadSize: 64
+  rayCount: 20
+  rayIntensity: 0.9
+  trailWidth: 3.5
+  coreColor: {r: 1, g: 0.98, b: 0.85, a: 1}
+  glowColor: {r: 1, g: 0.8, b: 0.35, a: 1}
 --- !u!1 &1265379747
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,7 +913,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1012,7 +1019,7 @@ GameObject:
   - component: {fileID: 1720052264}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1033,7 +1040,7 @@ MonoBehaviour:
   combo: 0
   SkillCheckMultiplier: 5
   panelRenderer: {fileID: 1780968492}
-  gameOverMenu: {fileID: 2025090804}
+  gameOverMenu: {fileID: 0}
   maxHealth: 3
   currentHealth: 3
   timeInvicible: 2
@@ -1117,7 +1124,7 @@ GameObject:
   - component: {fileID: 1780968493}
   - component: {fileID: 1780968492}
   m_Layer: 5
-  m_Name: PanelRenderer
+  m_Name: InGameUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1299,7 +1306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c37e1f9a5d2b4e8f9a6c0d3b7e2f5a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOverMenu
-  panelRenderer: {fileID: 2025090802}
+  panelRenderer: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1308,6 +1315,6 @@ SceneRoots:
   - {fileID: 1720052262}
   - {fileID: 340862489}
   - {fileID: 1653580272}
-  - {fileID: 1780968493}
   - {fileID: 1265379749}
+  - {fileID: 1780968493}
   - {fileID: 2025090803}
