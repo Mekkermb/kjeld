@@ -1040,7 +1040,7 @@ MonoBehaviour:
   combo: 0
   SkillCheckMultiplier: 5
   panelRenderer: {fileID: 1780968492}
-  gameOverMenu: {fileID: 2025090804}
+  gameOverMenu: {fileID: 0}
   maxHealth: 3
   currentHealth: 3
   timeInvicible: 2
@@ -1124,7 +1124,7 @@ GameObject:
   - component: {fileID: 1780968493}
   - component: {fileID: 1780968492}
   m_Layer: 5
-  m_Name: PanelRenderer
+  m_Name: InGameUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1306,7 +1306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c37e1f9a5d2b4e8f9a6c0d3b7e2f5a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOverMenu
-  panelRenderer: {fileID: 2025090802}
+  panelRenderer: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1315,6 +1315,6 @@ SceneRoots:
   - {fileID: 1720052262}
   - {fileID: 340862489}
   - {fileID: 1653580272}
-  - {fileID: 1780968493}
   - {fileID: 1265379749}
+  - {fileID: 1780968493}
   - {fileID: 2025090803}
