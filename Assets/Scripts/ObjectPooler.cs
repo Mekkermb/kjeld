@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ObjectPooler : MonoBehaviour
 {
+    [Header("Object Pooler Settings")]
     public GameObject objectToPool;
     public GameObject[] objectPool;
 
