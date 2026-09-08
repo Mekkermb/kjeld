@@ -8,7 +8,6 @@ public class ObjectPooler : MonoBehaviour
     public Vector2 DefaultObjectPosition = new Vector2(256, 256);
 
     public int poolSize = 256;
-    public int poolCount = 0;
 
     void Start()
     {
@@ -28,23 +27,20 @@ public class ObjectPooler : MonoBehaviour
     }
 
     public GameObject CreateNewObject() {
-        if (poolCount < poolSize)
+        for (int i = 0; i < poolSize; i++)
         {
-            GameObject obj = objectPool[poolCount];
-            obj.SetActive(true);
-            poolCount++;
-            return obj;
+            if (!objectPool[i].activeInHierarchy)
+            {
+                objectPool[i].SetActive(true);
+                return objectPool[i];
+            }
         }
-        else
-        {
-            Debug.LogWarning("Object pool is full!");
-            return null;
-        }
+        Debug.LogWarning("No available objects in the pool. Consider increasing the pool size.");
+        return null;
     }
     public void DestroyObject(GameObject obj)
     {
         obj.SetActive(false);
         obj.transform.position = DefaultObjectPosition;
-        poolCount--;
     }
 }
