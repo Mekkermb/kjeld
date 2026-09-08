@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 586923181}
   m_Layer: 0
   m_Name: Center
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -611,6 +611,13 @@ MonoBehaviour:
   radius: 2
   thickness: 0.2
   color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  maxRadius: 12
+  quadSize: 64
+  rayCount: 20
+  rayIntensity: 0.9
+  trailWidth: 3.5
+  coreColor: {r: 1, g: 0.98, b: 0.85, a: 1}
+  glowColor: {r: 1, g: 0.8, b: 0.35, a: 1}
 --- !u!1 &1265379747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,7 +1019,7 @@ GameObject:
   - component: {fileID: 1720052264}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
