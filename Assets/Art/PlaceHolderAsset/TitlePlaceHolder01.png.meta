@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: e6ff30bfd03c8b3449ad234ad7369b75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3322751232531917111
+    second: TitlePlaceHolder01_0
+  - first:
+      213: -1999627383208075542
+    second: TitlePlaceHolder01_1
+  - first:
+      213: 3404145157733457080
+    second: TitlePlaceHolder01_2
+  - first:
+      213: 5236646063310598025
+    second: TitlePlaceHolder01_3
+  - first:
+      213: -1781777646407722675
+    second: TitlePlaceHolder01_4
+  - first:
+      213: 1496622482672583099
+    second: TitlePlaceHolder01_5
+  - first:
+      213: -8329218713205819714
+    second: TitlePlaceHolder01_6
+  - first:
+      213: 3466939107562548208
+    second: TitlePlaceHolder01_7
+  - first:
+      213: -1264684774010427455
+    second: TitlePlaceHolder01_8
+  - first:
+      213: 3746182373796723138
+    second: TitlePlaceHolder01_9
+  - first:
+      213: 1453092949017787750
+    second: TitlePlaceHolder01_10
+  - first:
+      213: 6472689248456400375
+    second: TitlePlaceHolder01_11
+  - first:
+      213: -5995517655654148007
+    second: TitlePlaceHolder01_12
+  - first:
+      213: -6474754958273337871
+    second: TitlePlaceHolder01_13
+  - first:
+      213: -6010672925071592009
+    second: TitlePlaceHolder01_14
+  - first:
+      213: 9019842591457806273
+    second: TitlePlaceHolder01_15
+  - first:
+      213: -1359927173574789017
+    second: TitlePlaceHolder01_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 117
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7396e0c24a8cc1e20800000000000000
+      internalID: 3322751232531917111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee1dbc4d75ef34e0800000000000000
+      internalID: -1999627383208075542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 117
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc919a2cf3fd3f20800000000000000
+      internalID: 3404145157733457080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 117
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f631289dd4ca840800000000000000
+      internalID: 5236646063310598025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 110
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49d22dbbaad547e0800000000000000
+      internalID: -1781777646407722675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 117
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb10092f73215c410800000000000000
+      internalID: 1496622482672583099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 111
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6b4ded5bba86c80800000000000000
+      internalID: -8329218713205819714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 117
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbec2cefba0d1030800000000000000
+      internalID: 3466939107562548208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 117
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7634c06efe27ee0800000000000000
+      internalID: -1264684774010427455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 117
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9bbf5550d1df330800000000000000
+      internalID: 3746182373796723138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 117
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d74db965c6a2410800000000000000
+      internalID: 1453092949017787750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_11
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 117
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fddbb3e39c93d950800000000000000
+      internalID: 6472689248456400375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_12
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 117
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958d6223574abcca0800000000000000
+      internalID: -5995517655654148007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_13
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 117
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f52b609bac0526a0800000000000000
+      internalID: -6474754958273337871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 117
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5bc0012dcc59ca0800000000000000
+      internalID: -6010672925071592009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 117
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c708c93c0bec2d70800000000000000
+      internalID: 9019842591457806273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitlePlaceHolder01_16
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 117
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7687caad071902de0800000000000000
+      internalID: -1359927173574789017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TitlePlaceHolder01_0: 3322751232531917111
+      TitlePlaceHolder01_1: -1999627383208075542
+      TitlePlaceHolder01_10: 1453092949017787750
+      TitlePlaceHolder01_11: 6472689248456400375
+      TitlePlaceHolder01_12: -5995517655654148007
+      TitlePlaceHolder01_13: -6474754958273337871
+      TitlePlaceHolder01_14: -6010672925071592009
+      TitlePlaceHolder01_15: 9019842591457806273
+      TitlePlaceHolder01_16: -1359927173574789017
+      TitlePlaceHolder01_2: 3404145157733457080
+      TitlePlaceHolder01_3: 5236646063310598025
+      TitlePlaceHolder01_4: -1781777646407722675
+      TitlePlaceHolder01_5: 1496622482672583099
+      TitlePlaceHolder01_6: -8329218713205819714
+      TitlePlaceHolder01_7: 3466939107562548208
+      TitlePlaceHolder01_8: -1264684774010427455
+      TitlePlaceHolder01_9: 3746182373796723138
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
