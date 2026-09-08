@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CameraScript : MonoBehaviour
 {
+    [Header("Camera Settings")]
     public float cameraSpeed = 2.5f;
     public float maxDistance = 0.4f;
 

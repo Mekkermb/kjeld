@@ -5,10 +5,15 @@ public class Nuke : MonoBehaviour
 {
     public InputActionReference InputAction;
 
-    
+    [Header("Scale")]
     public float OutwardSpeed = 2.5f;
     public float StopAt = 10.0f;
 
+    [Header("Nuke Cooldown")]
+    public float NukeCooldown = 30.0f;
+    public float NukeCooldownRemaining = 0.0f;
+
+    [Header("State")]
     [SerializeField] private Vector2 Source;
     [SerializeField] private float Progress = 0f;
     private GameObject[] fires;
@@ -22,6 +27,7 @@ public class Nuke : MonoBehaviour
     }
 
     private void StartOutward() {
+        NukeCooldownRemaining = NukeCooldown;
         fires = GameObject.FindGameObjectsWithTag("Fire");
     } // enable objects that show the nuke (visuals)
     private void StopOutward() { } // disable objects that show the nuke (visuals)
@@ -44,7 +50,8 @@ public class Nuke : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (InputAction.action.triggered && Progress == 0)
+        NukeCooldownRemaining -= Time.deltaTime;
+        if (InputAction.action.triggered && NukeCooldownRemaining <= 0)
         {
             StartOutward();
             Outward();
