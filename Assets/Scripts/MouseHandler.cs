@@ -7,8 +7,11 @@ public class MouseHandler : MonoBehaviour
     public GameObject ShieldObject;
     public InputAction MouseAction;
     public float ShieldDistance = 2.0f;
+    public GameObject PlayerObject;
+    public float PlayerDistance = 1.5f;
 
     public Vector2 ShieldDirection;
+    public Vector2 PlayerDirection;
 
 
     public Vector2 MousePosition;
@@ -17,7 +20,7 @@ public class MouseHandler : MonoBehaviour
     Camera _camera;
 
 
-    private Vector2 ShieldDirectionNormalized()
+    private Vector2 DirectionNormalized()
     {
         Vector2 mousePosition = _camera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         Vector2 direction = (Centre + mousePosition).normalized;
@@ -31,10 +34,17 @@ public class MouseHandler : MonoBehaviour
         ShieldObject.transform.position = pos;
         ShieldObject.transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(ShieldDirection.y, ShieldDirection.x) * Mathf.Rad2Deg);
     }
+    private void SetPlayer() {
+        if (Time.timeScale == 0) return;
+        Vector2 pos = PlayerDirection * PlayerDistance;
+        PlayerObject.transform.position = pos;
+        PlayerObject.transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(PlayerDirection.y, PlayerDirection.x) * Mathf.Rad2Deg);
+    }
     void Start()
     {
         _camera = Camera.main;
-        ShieldDirection = ShieldDirectionNormalized();
+        ShieldDirection = DirectionNormalized();
+        PlayerDirection = DirectionNormalized();
         UpdateScreenScale();
         MouseAction.Enable();
     }
@@ -42,8 +52,10 @@ public class MouseHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ShieldDirection = ShieldDirectionNormalized();
+        ShieldDirection = DirectionNormalized();
+        PlayerDirection = DirectionNormalized();
         SetShield();
+        SetPlayer();
     }
 
     private void UpdateScreenScale()
