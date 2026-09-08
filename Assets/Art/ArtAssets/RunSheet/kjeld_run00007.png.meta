@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 1bb4eb649f10168429688c5d9150a671
+guid: 4e075439876308a49a7d84879b1ddc40
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4862712753091463430
-    second: kjeld_move_1_0
+      213: -7051056106219075213
+    second: kjeld_run00007_0
   - first:
-      213: -8172521551717838971
-    second: kjeld_move_1_1
+      213: 7073351547103978245
+    second: kjeld_run00007_1
+  - first:
+      213: -5256601423539051013
+    second: kjeld_run00007_2
+  - first:
+      213: 358002028638918955
+    second: kjeld_run00007_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -131,13 +137,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kjeld_move_1_0
+      name: kjeld_run00007_0
       rect:
         serializedVersion: 2
-        x: 253
-        y: 1764
+        x: 72
+        y: 400
         width: 27
-        height: 68
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af6b83bc38c248cb0800000000000000
-      internalID: -4862712753091463430
+      spriteID: 379867954dd952e90800000000000000
+      internalID: -7051056106219075213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kjeld_move_1_1
+      name: kjeld_run00007_1
       rect:
         serializedVersion: 2
-        x: 257
-        y: 0
-        width: 1411
-        height: 2388
+        x: 141
+        y: 58
+        width: 794
+        height: 818
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,8 +174,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58f42a6d2fe559e80800000000000000
-      internalID: -8172521551717838971
+      spriteID: 503a79081c7992260800000000000000
+      internalID: 7073351547103978245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kjeld_run00007_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 333
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf564202bdccc07b0800000000000000
+      internalID: -5256601423539051013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kjeld_run00007_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 290
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2954e1c2f0e7f400800000000000000
+      internalID: 358002028638918955
       vertices: []
       indices: 
       edges: []
@@ -188,8 +238,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      kjeld_move_1_0: -4862712753091463430
-      kjeld_move_1_1: -8172521551717838971
+      kjeld_run00007_0: -7051056106219075213
+      kjeld_run00007_1: 7073351547103978245
+      kjeld_run00007_2: -5256601423539051013
+      kjeld_run00007_3: 358002028638918955
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

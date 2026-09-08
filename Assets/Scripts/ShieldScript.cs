@@ -3,7 +3,7 @@ using UnityEngine;
 public class ShieldScript : MonoBehaviour
 {
     [HideInInspector] public ObjectPooler objectPooler;
-    public PlayerController playerController;
+    [HideInInspector] public PlayerController playerController;
     void Start()
     {
         objectPooler = GameObject.FindGameObjectWithTag("GameController").GetComponent<ObjectPooler>();

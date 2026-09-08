@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 1bb4eb649f10168429688c5d9150a671
+guid: 988b9f278db4344489785899575dc592
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4862712753091463430
-    second: kjeld_move_1_0
+      213: 3658063570123198469
+    second: kjeld_run00000_0
   - first:
-      213: -8172521551717838971
-    second: kjeld_move_1_1
+      213: 7267109071639208919
+    second: kjeld_run00000_1
+  - first:
+      213: -7614120373457003089
+    second: kjeld_run00000_2
+  - first:
+      213: -144015155993144225
+    second: kjeld_run00000_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,19 +108,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -131,13 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kjeld_move_1_0
+      name: kjeld_run00000_0
       rect:
         serializedVersion: 2
-        x: 253
-        y: 1764
-        width: 27
-        height: 68
+        x: 61
+        y: 248
+        width: 31
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af6b83bc38c248cb0800000000000000
-      internalID: -4862712753091463430
+      spriteID: 5009dfe8f6d04c230800000000000000
+      internalID: 3658063570123198469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kjeld_move_1_1
+      name: kjeld_run00000_1
       rect:
         serializedVersion: 2
-        x: 257
-        y: 0
-        width: 1411
-        height: 2388
+        x: 127
+        y: 78
+        width: 809
+        height: 790
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,8 +161,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58f42a6d2fe559e80800000000000000
-      internalID: -8172521551717838971
+      spriteID: 7d3e217a235f9d460800000000000000
+      internalID: 7267109071639208919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kjeld_run00000_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 201
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadd7079cd5355690800000000000000
+      internalID: -7614120373457003089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kjeld_run00000_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 183
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5491c88afa500ef0800000000000000
+      internalID: -144015155993144225
       vertices: []
       indices: 
       edges: []
@@ -188,8 +225,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      kjeld_move_1_0: -4862712753091463430
-      kjeld_move_1_1: -8172521551717838971
+      kjeld_run00000_0: 3658063570123198469
+      kjeld_run00000_1: 7267109071639208919
+      kjeld_run00000_2: -7614120373457003089
+      kjeld_run00000_3: -144015155993144225
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
