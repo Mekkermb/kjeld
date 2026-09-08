@@ -5,7 +5,8 @@ using UnityEngine.UIElements;
 public class PlayerController : MonoBehaviour
 {
     public float score = 0f;
-    public float scoreMultiplier = 2f;
+    public int combo = 0;
+    public int SkillCheckMultiplier = 5;
     public PanelRenderer panelRenderer;
     public int maxHealth;
     public int currentHealth;
@@ -56,8 +57,21 @@ public class PlayerController : MonoBehaviour
 
     public void ShieldHit()
     {
-        score++;
-        _scoreText.text = "Score: " + score;
+        combo += 1;
+        score += combo;
+        _scoreText.text = "Score: " + score + "\nCombo: " + combo + "x";
+    }
+    public void ResetCombo()
+    {
+        combo = 0;
+        _scoreText.text = "Score: " + score + "\nCombo: " + combo + "x";
+    }
+
+    public void SkillCheckHit()
+    {
+        combo += 1;
+        score += combo * SkillCheckMultiplier;
+        _scoreText.text = "Score: " + score + "\nCombo: " + combo + "x";
     }
 
     public void ChangeHealth(int amount)
@@ -74,6 +88,7 @@ public class PlayerController : MonoBehaviour
             player.color = color;
             _isInvicible = true;
             _damageCooldown = timeInvicible;
+            ResetCombo();
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
