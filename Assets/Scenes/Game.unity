@@ -641,6 +641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldScript
   objectPooler: {fileID: 0}
+  playerController: {fileID: 0}
 --- !u!1 &1720052259
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +675,9 @@ MonoBehaviour:
   score: 0
   scoreMultiplier: 2
   panelRenderer: {fileID: 1780968492}
+  maxHealth: 3
+  currentHealth: 3
+  timeInvicible: 2
 --- !u!4 &1720052262
 Transform:
   m_ObjectHideFlags: 0
@@ -705,6 +709,8 @@ MonoBehaviour:
   InputAction: {fileID: -1025345228684017129, guid: 509c0d90193a2ad47b46150d0e84c9b5, type: 3}
   OutwardSpeed: 2.5
   StopAt: 10
+  NukeCooldown: 30
+  NukeCooldownRemaining: 0
   Source: {x: 0, y: 0}
   Progress: 0
 --- !u!1 &1780968491
