@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: d1a31f701ec84444396f2597f9e3d776
+guid: 9dd7637de290ad44294ef8c2ebc1c104
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 799140816594909433
-    second: flame_b_00001_0
+      213: 6852718854055762225
+    second: FlameB_sheet_0
+  - first:
+      213: 3721628395603704939
+    second: FlameB_sheet_1
+  - first:
+      213: -602708038968023300
+    second: FlameB_sheet_2
+  - first:
+      213: -5602295546945792540
+    second: FlameB_sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,6 +108,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -115,11 +137,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flame_b_00001_0
+      name: FlameB_sheet_0
       rect:
         serializedVersion: 2
-        x: 130
-        y: 34
+        x: 146
+        y: 1030
+        width: 664
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1399d919d7fb91f50800000000000000
+      internalID: 6852718854055762225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameB_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1034
         width: 681
         height: 931
       alignment: 0
@@ -130,8 +174,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f8b7a2b65e171b00800000000000000
-      internalID: 799140816594909433
+      spriteID: b6c37f9ce41e5a330800000000000000
+      internalID: 3721628395603704939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameB_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 33
+        width: 648
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6e90a5b30c2a7f0800000000000000
+      internalID: -602708038968023300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameB_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 37
+        width: 683
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e51b8dd1e5a042b0800000000000000
+      internalID: -5602295546945792540
       vertices: []
       indices: 
       edges: []
@@ -150,7 +238,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      flame_b_00001_0: 799140816594909433
+      FlameB_sheet_0: 6852718854055762225
+      FlameB_sheet_1: 3721628395603704939
+      FlameB_sheet_2: -602708038968023300
+      FlameB_sheet_3: -5602295546945792540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
