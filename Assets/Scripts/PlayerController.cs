@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public int combo = 0;
     public int SkillCheckMultiplier = 5;
     public PanelRenderer panelRenderer;
+    public GameOverMenu gameOverMenu;
     public int maxHealth;
     public int currentHealth;
     public float timeInvicible = 2.0f;
@@ -92,6 +93,10 @@ public class PlayerController : MonoBehaviour
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        if (currentHealth <= 0)
+        {
+            Death();
+        }
         Debug.Log(currentHealth + "/" + maxHealth);
     }
 
@@ -115,6 +120,11 @@ public class PlayerController : MonoBehaviour
             ChangeHealth(-1);
             objectPooler.DestroyObject(other.gameObject);
         }
+    }
+
+    public void Death()
+    {
+        gameOverMenu.Show((int)score);
     }
 }
 
