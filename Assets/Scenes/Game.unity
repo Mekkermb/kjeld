@@ -330,7 +330,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
     m_Priority: 0
-  ShieldDistance: 2
+  ShieldDistance: 1
   ShieldDirection: {x: 0, y: 0}
   MousePosition: {x: 0, y: 0}
   Centre: {x: 0, y: 0}
