@@ -215,9 +215,9 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
     m_Priority: 0
-  ShieldDistance: 2
+  ShieldDistance: 1
   PlayerObject: {fileID: 1472742093}
-  PlayerDistance: 1
+  PlayerDistance: 0.5
   ShieldDirection: {x: 0, y: 0}
   PlayerDirection: {x: 0, y: 0}
   MousePosition: {x: 0, y: 0}
@@ -611,6 +611,13 @@ MonoBehaviour:
   radius: 2
   thickness: 0.2
   color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  maxRadius: 12
+  quadSize: 64
+  rayCount: 20
+  rayIntensity: 0.9
+  trailWidth: 3.5
+  coreColor: {r: 1, g: 0.98, b: 0.85, a: 1}
+  glowColor: {r: 1, g: 0.8, b: 0.35, a: 1}
 --- !u!1 &1265379747
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,7 +913,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
