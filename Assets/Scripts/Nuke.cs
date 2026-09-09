@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -20,6 +21,7 @@ public class Nuke : MonoBehaviour
     [SerializeField] private GameObject NukeObject;
     [SerializeField] private Ring ring;
     [SerializeField] private PlayerController playerController;
+    [SerializeField] private BarManager barManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,6 +31,7 @@ public class Nuke : MonoBehaviour
         NukeObject = GameObject.FindGameObjectWithTag("Nuke");
         ring = NukeObject.GetComponent<Ring>();
         playerController = gameObject.GetComponent<PlayerController>();
+        barManager = GameObject.FindGameObjectWithTag("BarCanvas").GetComponent<BarManager>();
     }
 
     private void StartOutward() {
@@ -62,6 +65,7 @@ public class Nuke : MonoBehaviour
     void Update()
     {
         NukeCooldownRemaining -= Time.deltaTime;
+        barManager.UpdateUltBar((NukeCooldown - NukeCooldownRemaining), NukeCooldown);
         if (InputAction.action.triggered && NukeCooldownRemaining <= 0)
         {
             StartOutward();
