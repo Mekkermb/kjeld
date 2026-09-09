@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public int maxHealth;
     public int currentHealth;
     public float timeInvicible = 2.0f;
+    public AudioSource takeDamageSource;
+    public AudioClip takeDamage;
 
     int _uiVersion = -1;
     [HideInInspector] public ObjectPooler objectPooler;
@@ -46,6 +48,7 @@ public class PlayerController : MonoBehaviour
                 SpriteRenderer player = gameObject.GetComponentInChildren<SpriteRenderer>();
                 player.color = color;
                 _isInvicible = false;
+                
             }
         }
     }
@@ -89,6 +92,7 @@ public class PlayerController : MonoBehaviour
             player.color = color;
             _isInvicible = true;
             _damageCooldown = timeInvicible;
+            takeDamageSource.PlayOneShot(takeDamage);
             ResetCombo();
         }
 
