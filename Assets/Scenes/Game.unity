@@ -1701,6 +1701,7 @@ MonoBehaviour:
   takeDamageSource: {fileID: 1850912687}
   takeDamage: {fileID: 8300000, guid: 8cd4da8966590914f893327a2b8bcb21, type: 3}
   objectPooler: {fileID: 0}
+  barManager: {fileID: 0}
 --- !u!4 &1720052262
 Transform:
   m_ObjectHideFlags: 0
@@ -1742,6 +1743,7 @@ MonoBehaviour:
   NukeObject: {fileID: 0}
   ring: {fileID: 0}
   playerController: {fileID: 0}
+  barManager: {fileID: 0}
 --- !u!50 &1720052264
 Rigidbody2D:
   serializedVersion: 5
@@ -1783,7 +1785,7 @@ GameObject:
   - component: {fileID: 1732244116}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: BarCanvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
