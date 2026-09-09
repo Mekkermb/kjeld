@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     public float score = 0f;
     public int combo = 0;
-    public int SkillCheckMultiplier = 5;
     public PanelRenderer panelRenderer;
     public GameOverMenu gameOverMenu;
     public int maxHealth;
@@ -68,10 +67,10 @@ public class PlayerController : MonoBehaviour
         _scoreText.text = "Score: " + score + "\nCombo: " + combo + "x";
     }
 
-    public void SkillCheckHit()
+    public void SkillCheckHit(int mult)
     {
         combo += 1;
-        score += combo * SkillCheckMultiplier;
+        score += combo * mult;
         _scoreText.text = "Score: " + score + "\nCombo: " + combo + "x";
     }
 
