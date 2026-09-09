@@ -769,6 +769,7 @@ GameObject:
   - component: {fileID: 1458113283}
   - component: {fileID: 1458113282}
   - component: {fileID: 1458113281}
+  - component: {fileID: 1458113285}
   m_Layer: 5
   m_Name: HighScores
   m_TagString: Untagged
@@ -863,6 +864,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1458113285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458113280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91e198dda0c120a449b44d6a31a4234f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BackToMainMenu
+  backButton: {fileID: 1170197391}
 --- !u!1 &1615378026
 GameObject:
   m_ObjectHideFlags: 0
