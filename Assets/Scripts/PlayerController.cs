@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     int _uiVersion = -1;
     [HideInInspector] public ObjectPooler objectPooler;
+    [HideInInspector] public BarManager barManager;
     Label _scoreText;
     Rigidbody2D _rigidbody2D;
     Vector2 _move;
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         objectPooler = GameObject.FindGameObjectWithTag("GameController").GetComponent<ObjectPooler>();
+        barManager = GameObject.FindGameObjectWithTag("BarCanvas").GetComponent<BarManager>();
         currentHealth = maxHealth;
     }
 
@@ -96,6 +98,7 @@ public class PlayerController : MonoBehaviour
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        barManager.UpdateHpBar(currentHealth, maxHealth);
         if (currentHealth <= 0)
         {
             Death();
