@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb604b382de33e746b706892dc2028a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FireScript
-  fireSpeed: 10
+  fireSpeed: 8
   Player: {fileID: 0}
 --- !u!50 &7346772799159342917
 Rigidbody2D:
