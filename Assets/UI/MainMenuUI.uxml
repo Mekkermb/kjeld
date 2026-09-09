@@ -1,11 +1,12 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="MainMenuBackground" style="flex-grow: 1;">
-        <ui:VisualElement name="MainMenuButtonList" style="flex-grow: 1; top: auto; right: initial; left: initial; border-left-width: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; border-left-color: rgba(147, 147, 147, 0.608); border-right-color: rgba(147, 147, 147, 0.608); border-top-color: rgba(147, 147, 147, 0.608); border-bottom-color: rgba(147, 147, 147, 0.608); background-size: 100% 100%; transform-origin: center; width: 45%; align-self: center;">
-            <ui:VisualElement name="Title" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Art/PlaceHolderAsset/TitlePlaceHolder01.png?fileID=2800000&amp;guid=e6ff30bfd03c8b3449ad234ad7369b75&amp;type=3#TitlePlaceHolder01&quot;); background-size: 120% 150%; position: relative; top: 0%;"/>
-            <ui:VisualElement name="ButtonDiv" style="flex-grow: 1; top: 10%;">
-                <ui:Button text="Start" name="StartButton" style="width: 90%; height: 15%; -unity-text-align: middle-center; right: auto; left: auto; top: 0%; bottom: 10%; font-size: 28px; align-self: center;"/>
-                <ui:Button text="Quit" name="QuitButton" style="width: 90%; height: 15%; -unity-text-align: middle-center; right: auto; left: auto; top: 0%; bottom: 0%; font-size: 28px; align-self: center;"/>
-            </ui:VisualElement>
+    <ui:VisualElement name="GameOverContainer" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.85); align-items: center; justify-content: center;">
+        <ui:Label text="The fire has burnt out" name="GameOverTitle" style="font-size: 48px; -unity-font-style: bold; color: rgb(255, 120, 40); margin-bottom: 24px;"/>
+        <ui:Label text="Score: 0" name="GameOverScoreLabel" style="font-size: 28px; -unity-font-style: bold; color: rgb(255, 255, 255); margin-bottom: 32px;"/>
+        <ui:VisualElement style="margin-bottom: 16px;">
+            <ui:TextField name="NameField" max-length="16" text-edited-placeholder="Enter your name" style="width: 240px; height: 36px; font-size: 18px;"/>
         </ui:VisualElement>
+        <ui:Button text="Save Score" name="SaveButton" style="width: 240px; height: 40px; margin-bottom: 10px; font-size: 18px;"/>
+        <ui:Button text="Play Again" name="PlayAgainButton" style="width: 240px; height: 40px; margin-bottom: 10px; font-size: 18px;"/>
+        <ui:Button text="Return to Main Menu" name="MenuButton" style="width: 240px; height: 40px; font-size: 18px;"/>
     </ui:VisualElement>
 </ui:UXML>

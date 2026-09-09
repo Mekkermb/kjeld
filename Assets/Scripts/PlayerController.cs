@@ -6,12 +6,13 @@ public class PlayerController : MonoBehaviour
 {
     public float score = 0f;
     public int combo = 0;
-    public int SkillCheckMultiplier = 5;
     public PanelRenderer panelRenderer;
     public GameOverMenu gameOverMenu;
     public int maxHealth;
     public int currentHealth;
     public float timeInvicible = 2.0f;
+    public AudioSource takeDamageSource;
+    public AudioClip takeDamage;
 
     int _uiVersion = -1;
     [HideInInspector] public ObjectPooler objectPooler;
@@ -46,6 +47,7 @@ public class PlayerController : MonoBehaviour
                 SpriteRenderer player = gameObject.GetComponentInChildren<SpriteRenderer>();
                 player.color = color;
                 _isInvicible = false;
+                
             }
         }
     }
@@ -68,10 +70,10 @@ public class PlayerController : MonoBehaviour
         _scoreText.text = "Score: " + score + "\nCombo: " + combo + "x";
     }
 
-    public void SkillCheckHit()
+    public void SkillCheckHit(int mult)
     {
         combo += 1;
-        score += combo * SkillCheckMultiplier;
+        score += combo * mult;
         _scoreText.text = "Score: " + score + "\nCombo: " + combo + "x";
     }
 
@@ -89,6 +91,7 @@ public class PlayerController : MonoBehaviour
             player.color = color;
             _isInvicible = true;
             _damageCooldown = timeInvicible;
+            takeDamageSource.PlayOneShot(takeDamage);
             ResetCombo();
         }
 
