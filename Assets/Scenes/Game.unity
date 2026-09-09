@@ -1040,7 +1040,7 @@ MonoBehaviour:
   combo: 0
   SkillCheckMultiplier: 5
   panelRenderer: {fileID: 1780968492}
-  gameOverMenu: {fileID: 0}
+  gameOverMenu: {fileID: 2025090804}
   maxHealth: 3
   currentHealth: 3
   timeInvicible: 2
