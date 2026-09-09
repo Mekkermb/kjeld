@@ -26,11 +26,19 @@ public class MainMenu : MonoBehaviour
         _uiVersion = version;
 
         VisualElement playButton = root.Q("PlayButton");
+        VisualElement LeaderboardButton = root.Q("LeaderboardButton");
 
         playButton.RegisterCallback<ClickEvent>(evt =>
         {
             SceneManager.LoadScene("Game");
         });
+        
+        LeaderboardButton.RegisterCallback<ClickEvent>(evt =>
+        {
+            SceneManager.LoadScene("LeaderBoardScene");
+        });
+        
+        
     }
 
 }
